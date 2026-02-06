@@ -1,0 +1,31 @@
+body{
+    background: linear-gradient(to right,yellow,red);
+    font-family: 'Times New Roman', Times, serif;
+}
+.todo-box{
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+}
+#taskList li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.task{
+    flex: 1;
+}
+.completed{
+    text-decoration: line-through;
+    color: grey;
+}
+.btn-small{
+    padding: 5px;
+    font-size: 14px;
+    margin-left: 8px;
+}
